@@ -69,10 +69,70 @@ body {
     height:30px;
 }
 .header {
+    display:block;
+    padding: 15px 30px;
     grid-area: head;
     background-color: white;
     position:relative;
     box-shadow: 1px 1px 10px rgb(141, 141, 141);
+}
+.headertop {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:30px;
+    margin-bottom:30px;
+}
+.svg {
+    vertical-align: bottom;
+    width:30px;
+    height:30px;
+}
+#search {
+    width:600px;
+    height:30px;
+    background-color: #e2e8f0;
+    border: none;
+    margin-left:2em;
+    border-radius: 15px;
+}
+.headertopleft {
+    justify-content: flex-start;
+}
+.headertopright {
+    align-items: center;
+    display:flex;
+    justify-content: flex-end;
+    gap:30px;
+    width:500px;
+}
+.headerbottom {
+    display:flex;
+}
+.headerbottomleft {
+    justify-content: flex-start;
+    align-items: center;
+    display:flex;
+    justify-content: flex-start;
+}
+.greeting {
+    margin-left:1em;
+}
+.headerbottomright {
+    display:flex;
+    width:67.5%;
+    justify-content: flex-end;
+    gap:15px;
+    align-items: center;
+}
+.headerbottomright > button {
+    width:130px;
+    height:45px;
+    font-size: larger;
+    background-color: #1992d4;
+    border:none;
+    color:white;
+    border-radius: 30px;
 }
 .main {
     grid-area: main;
