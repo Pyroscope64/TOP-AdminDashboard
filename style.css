@@ -133,8 +133,71 @@ body {
     border:none;
     color:white;
     border-radius: 30px;
+    transition:.6s;
+}
+.headerbottomright > button:hover {
+    width:170px;
+    background-color: rgb(83, 83, 255);
 }
 .main {
     grid-area: main;
+    display:flex;
+    padding:2em;
+    padding-top: 1em;
     background-color: #e2e8f0;
+}
+.projects {
+    width:800px;
+    height:550px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap:10px;
+}
+.mainprojects {
+    margin-right: 1em;
+}
+.maincontent {
+    width:360px;
+    height:180px;
+    background-color: white;
+    border-radius: 8px;
+    border-left: 8px solid #f0b429;
+    box-shadow: 1px 1px 10px rgb(141, 141, 141);
+}
+.announcementscontent {
+    background-color: white;
+    font-size:smaller;
+    width:300px;
+    padding:30px;
+    word-break: normal;
+    box-shadow: 1px 1px 10px rgb(141, 141, 141);
+}
+.textcontent {
+    padding:2em;
+}
+.trending {
+    margin-top: 1em;
+}
+.trendingcontent {
+    padding:30px;
+    padding-top:14px;
+    padding-bottom:14px;
+    width:300px;
+    background-color: white;
+    box-shadow: 1px 1px 10px rgb(141, 141, 141);
+}
+.trendypeople {
+    display:flex;
+    font-size: x-small;
+    padding-bottom:8px;
+}
+.trendingimages {
+    width:40px;
+    height:40px;
+    border-radius: 30px;
+}
+.trendypeople > .textcontent {
+    padding:0;
+    padding-left:5px;
 }
